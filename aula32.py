@@ -32,26 +32,21 @@ if entrada.isdigit():
 else:
     print('Vovê não digitou um numero inteiro')
 
-    
-
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
 descrito, exiba a saudação apropriada. Ex. 
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
 horas = input('Digite a hora: ')
-minutos = input('Digite os minutos: ')
 
 horas_inteiro = int(horas)
-minutos_inteiro = int(minutos)
 
 if horas_inteiro < 12:
-    print(f'Bom dia {horas_inteiro}:{minutos_inteiro}')
+    print(f'Bom dia {horas_inteiro}')
 elif horas_inteiro >= 17 and horas_inteiro <= 24:
-    print(f'Boa noite {horas_inteiro}:{minutos_inteiro}')
+    print(f'Boa noite {horas_inteiro}')
 else:
-    print(f'Boa tarde {horas_inteiro}:{minutos_inteiro}')
-
+    print(f'Boa tarde {horas_inteiro}')
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
