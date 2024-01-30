@@ -1,10 +1,4 @@
 
-1 parent 3ef37fd
-commit c8dfa22
-Showing 1 changed file with 20 additions and 0 deletions.
- 20 changes: 20 additions & 0 deletions20  
-aula31.py
-@@ -0,0 +1,20 @@
 """
 Flag (Bandeira) - Marcar um local
 None = Não valor
