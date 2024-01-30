@@ -1,4 +1,5 @@
-# 1. (n + n)
+# procedência - sequência de leitura
+#1. (n + n)
 # 2. **
 # 3. * / // %
 # 4. + -

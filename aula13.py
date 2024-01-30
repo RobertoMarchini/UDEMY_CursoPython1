@@ -1,5 +1,6 @@
+# f-strings (importante - formatação de strings)
 nome = 'Roberto Marchini'
-altura = 1.72
+altura = 1.725
 peso = 98
 imc = peso / altura ** 2
 
