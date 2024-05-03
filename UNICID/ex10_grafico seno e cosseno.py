@@ -5,10 +5,10 @@ x = np.linspace(-np.pi, np.pi,35) # 35 valores entre −pi e pi
 y_sen = np.sin(x) # array senos dos valores de x
 y_cos = np.cos(x) # array cos senos dos valores de x
 plt.plot (x,y_sen, label = 'seno ')
-plt.plot (x, y_cos , label= ' cos seno ' )
+plt.plot (x, y_cos , label= ' cosseno ' )
 plt.xlim(-np.pi , np.pi )
 plt.xlabel ( 'Ângulo [ rad ] ')
-plt.ylabel ( ' Função t r igonomé t r i c a ( x ) ' )
+plt.ylabel ( ' Função trigonométrica ( x ) ' )
 plt.grid( True )
 plt.legend ( )
 plt.show ( ) # mostra o gráfico
